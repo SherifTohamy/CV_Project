@@ -2,16 +2,13 @@
 ---
 
 ### Overview
-The code for this project was created by Pierluigi Ferrari in his Github repository [ssd_keras](https://github.com/pierluigiferrari/ssd_keras). The project was copied to the book repository and adapted for this chapter.
+The code for this project was created by Pierluigi Ferrari in his Github repository [ssd_keras](https://github.com/pierluigiferrari/ssd_keras). The project was copied to the book repository and adapted for this project.
 
-Note that for this project we are going to build a smaller SSD network called SSD7. SSD7 is a small 7-layer version of SSD300 network. It is important to note that while SSD7 network would yield some acceptable results, SSD7 is not an optimized network architecture. The goal is just to build a low-complexity network that is fast enough for you to train on your personal computer. It took me around 20 hours to train this network on the road traffic dataset. This could be a lot less on a GPU.
-
-The original repository that was created by Pierluigi Ferrari comes with implementation tutorials for SSD7, SSD300, and SSD512 networks. I encourage you to check it out.
+Note that for this project we are going to build a smaller SSD network called SSD7. SSD7 is a small 7-layer version of SSD300 network. It is important to note that while SSD7 network would yield some acceptable results, SSD7 is not an optimized network architecture. 
 
 
 This is a Keras port of the SSD model architecture introduced by Wei Liu et al. in the paper [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325).
 
-The main goal of this project is to create an SSD implementation that is well documented for those who are interested in a low-level understanding of the model. The provided tutorials, documentation and detailed comments hopefully make it a bit easier to dig into the code and adapt or build upon the model than with most other implementations out there (Keras or otherwise) that provide little to no documentation and comments.
 
 ### Dependencies
 
@@ -36,6 +33,14 @@ What makes this dataset very interesting is that these are real-time images take
 |---|---|
 | ![img01](./examples/ssd7_traffic_pred_01.png) | ![img01](./examples/ssd7_traffic_pred_02.png) |
 | ![img01](./examples/ssd7_traffic_pred_03.png) | ![img01](./examples/ssd7_traffic_pred_04.png) |
+
+
+### Project steps:
+After downloading the dataset and upload it intoo MyDrive
+1- clone this repo to be included in your google drive as backend.
+2- Use the frontend files to implement the project stages
+
+Note: you can run Each stage independly.
 
 ### More tutorials
 
