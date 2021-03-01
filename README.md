@@ -36,11 +36,12 @@ What makes this dataset very interesting is that these are real-time images take
 
 
 ### Project steps:
-After downloading the dataset and upload it intoo MyDrive
-1- clone this repo to be included in your google drive as backend.
+After downloading the dataset and upload it into MyDrive:
+
+1- clone this repository to be included in your google drive as a backend.
 2- Use the frontend files to implement the project stages
 
-Note: you can run Each stage independly.
+Note: you can run each stage independently.
 
 ### More tutorials
 
